@@ -6,7 +6,7 @@
 #define PLUGIN_NAME "(Re)Load Map"
 #define PLUGIN_AUTHOR "JoinedSenses"
 #define PLUGIN_DESCRIPTION "(Re)loads the map"
-#define PLUGIN_VERSION "0.1.0"
+#define PLUGIN_VERSION "0.1.1"
 #define PLUGIN_URL "https://alliedmods.net"
 
 public Plugin myinfo = {
@@ -19,7 +19,7 @@ public Plugin myinfo = {
 
 public void OnPluginStart() {
 	CreateConVar(
-		"sm_joinedsenses_version",
+		"sm_reloadmap_version",
 		PLUGIN_VERSION,
 		PLUGIN_DESCRIPTION,
 		FCVAR_SPONLY|FCVAR_NOTIFY|FCVAR_DONTRECORD
