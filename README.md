@@ -2,7 +2,7 @@
 (Re)loads the map
 
 ## Commands
-`sm_reloadmap`
+`sm_reloadmap`  
 `sm_changelevel <mapname>` (Use exact map name);
 
 ### Notes
