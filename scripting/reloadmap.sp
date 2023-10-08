@@ -6,7 +6,7 @@
 #define PLUGIN_NAME "(Re)Load Map"
 #define PLUGIN_AUTHOR "JoinedSenses"
 #define PLUGIN_DESCRIPTION "(Re)loads the map"
-#define PLUGIN_VERSION "0.1.1"
+#define PLUGIN_VERSION "0.1.2"
 #define PLUGIN_URL "https://alliedmods.net"
 
 public Plugin myinfo = {
@@ -38,7 +38,7 @@ public Action cmdReloadMap(int client, int args) {
 
 	PrintToChatAll("Reloading current map");
 
-	ServerCommand("changelevel %s", mapName);
+	ForceChangeLevel(mapName, "sm_reloadmap map");
 
 	return Plugin_Handled;
 }
