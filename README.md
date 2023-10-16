@@ -1,5 +1,5 @@
 # SM-Re.LoadMap
-(Re)loads the map
+SourceMod plugin which (re)loads the map
 
 ## Commands
 `sm_reloadmap`  
